@@ -3,13 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* basic body stuff */
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* header stuff */
+
 header {
-    display: flex;
     padding: 20px 35px;
     background-color: #39a6b2;
-    flex-wrap:wrap;
-    flex:auto;
-    flex-direction:row;
 }
 header h1 {
     font-weight: bold;
@@ -17,7 +21,6 @@ header h1 {
     color: #fce138;
     margin: 0;
     display: inline;
-    user-select: none; 
 }
 header a {
     text-decoration: none;
@@ -29,18 +32,15 @@ header nav {
 }
 header nav ul li {
     display: inline;
-    text-align: right;
 }
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
-body {
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
-    
-}
+
+/* hero stuff */
+
 section {
     padding: 60px;
 }
@@ -84,6 +84,9 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
+
+/* main content (section) stuff */
+
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -117,7 +120,7 @@ section {
 }
 .steps img {
     width: 15%;
-    margin: 10px 0;
+    margin: 40px 0;
 }
 .steps h3 {
     color: #024e76;
@@ -142,25 +145,28 @@ section {
 .steps div {
     margin-bottom: 80px;
 }
-.steps img {
-    width: 15%;
-    margin: 10px 0;
+.trainers {
+    text-align: center;
 }
-.steps h3 {
-    color: #024e76;
-    font-size: 46px;
-    margin-top: 10px;
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
 }
-.steps p {
-    color: #39a6b2;
-    font-size: 23px;
+.trainer img {
+    width: 35%;
+    float: left;
 }
-.primary-border {
-    border-color: #fce138;
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
 }
-.secondary-border {
-    border-color: #39a6b2;
-}
+
+/* footer stuff */
+
 footer {
     background: #fce138;
     width:100%;
