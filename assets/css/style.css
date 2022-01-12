@@ -79,9 +79,7 @@ section {
   position: relative;
 }
 
-.hero div {
-  display: inline-block;
-}
+
 
 .hero-form {
   border: 3px solid #024e76;
